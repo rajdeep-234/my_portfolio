@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navlogo img{
+    width:150px;
+    border-radius: 50%;
+}
+.navlink{
+    list-style-type: none;
+    display: flex;
+}
+.navlink li{
+    margin: 40px;
+    padding: 40px;
+}
+.navlink li a{
+    text-decoration: none;
+    color: black;
+}
+#home,#projects,#skills,#about{
+    color: rgb(223, 104, 215);
+    text-decoration: underline;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(218, 239, 79);
+}
+
+h2 span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: burlywood;
+    
+}
+#tagline{
+    background-color: blanchedalmond;
+    width: 33.33%;
+    padding-top: 40px;
+}
+#home_page{
+    padding-top: 12px;
+    width: 100%;
+    background-image: url(../images/mern_stack.jpeg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#career-summary{
+    background-color: rgb(191, 237, 241);
+    padding-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.summary{
+    width: 33.33%;
+}
+.image{
+    width:50%;
+    float: right;
+    clip-path: circle(50% at 40% 50%);
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
